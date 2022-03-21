@@ -13,12 +13,15 @@
         color: $headingColor;
       }
       p {
-        font-size: 1.4rem;
+        font-size: 1rem;
         color: $lightFontColor;
-        line-height: 1.9rem;
+        line-height: 1.2rem;
       }
       li{
         list-style: none;
+        font-size: 1rem;
+        color: $lightFontColor;
+        line-height: 1.2rem;
         
       }
       li:nth-child(1) {
@@ -33,8 +36,8 @@
     }
     .image {
       img {
-        height: 35rem;
-        width: 35rem;
+        height: 40rem;
+        width: 40rem;
       }
     }
   }

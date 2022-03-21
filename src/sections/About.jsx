@@ -36,7 +36,7 @@ function About() {
             Fleet operations are complex and difficult to manage. People start
             out trying to use spreadsheets but quickly outgrow them
           </p>
-          <Button content="Why E-Fleet?" />
+       
         </motion.div>
         <div className="cards" ref={element}>
           <Card

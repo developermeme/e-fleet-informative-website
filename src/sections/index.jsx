@@ -18,7 +18,7 @@ export default function Index() {
           <Starter />
           <About />
           <Why /> 
-          <Testimonials />
+          {/* <Testimonials /> */}
           <Blogs />
           <Footer />
          

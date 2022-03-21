@@ -22,24 +22,33 @@ export default function Starter() {
           animate={controls}
           transition={{ delay: 0.2, type: "tween" }}
         >
-          <h1>
-            Manage Costs Effectively and Gain Visibility into Fleet Operations
-          </h1>
+          <h1>E-Fleet.World</h1>
           <p>
-            Replace spreadsheets and paper with a centralized mobile fleet
-            management solution designed to make your work easier. Fully
-            optimize your fleet by giving fleet managers, drivers, technicians,
-            parts managers, and other personnel access to the tools and
-            information they need
+            By the rapid growing e commerce business , delivery as last miles
+            become so critical to compete the final delivery to the consumer
+            hands, as delivery count on each individual by any form of vehicle,
+            such variety but also accuracy is very challenging for many delivery
+            business owners. We create this Efleet software by both website and
+            mobile apps , provide all the tool for company and individual rider
+            to be accurate interactive , in time monitoring for all the move and
+            delivery approval , smart out the best efficiency route for daily
+            delivery with our unique AI tech knowledge. Efleet provide very
+            flexible way of use, from one vehicle to hundreds and thousands ,
+            always trackable , Automatically generate the payroll digitalized by
+            the different way to calculate as wish. Save so much man power and
+            avoid any mistake. Please enjoy to use this very affordable , hassle
+            free new software platform.
+            <ul>
+              <li>Pan Pan</li>
+
+              <li>Founder</li>
+
+              <li> Last Miles Veteran</li>
+
+              <li>California</li>
+            </ul>
           </p>
-          <div className="button-container">
-            <Button content="Watch Video" icon={<GoPlay />} />
-            <Button
-              color="pink"
-              content="Request Quote"
-              icon={<HiOutlineArrowNarrowRight />}
-            />
-          </div>
+          
         </motion.div>
         <motion.div
           className="image"

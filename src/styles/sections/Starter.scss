@@ -17,6 +17,13 @@
         color: $lightFontColor;
         line-height: 1.9rem;
       }
+      li{
+        list-style: none;
+        
+      }
+      li:nth-child(1) {
+        color: blue;
+      }
       .button-container {
         display: flex;
         button {

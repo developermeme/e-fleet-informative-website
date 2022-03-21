@@ -25,7 +25,7 @@ function About() {
           variants={reveal}
           transition={{ delay: 0.1, stiffness: 300 }}
         >
-          <Title title="About E-Fleet" color="blue" />
+          <Title title="E-Fleet.World" color="blue" />
           <p>
             We help organizations track, analyze and improve their fleet
             operations.

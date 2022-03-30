@@ -42,10 +42,10 @@ export default function Navbar() {
               <a href="#blog">Blog</a>
             </li>
             <li>
-            <a href="https://admin.efleet.world/">Contact</a>
+              <a href="#footer">Contact</a>
             </li>
             <li>
-            <a href="https://admin.efleet.world/Register">Register</a>
+              <a href="https://admin.efleet.world/">Register</a>
             </li>
           </ul>
         </div>

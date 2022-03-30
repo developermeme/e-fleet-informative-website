@@ -14,19 +14,15 @@ function Blog({ image, title, subTitle, variants, animate }) {
       <div className="image">
         <img src={image} alt="Blog" />
       </div>
-      <div className="content">
+      {/* <div className="content">
         <div className="title">
           <h3>{title}</h3>
         </div>
         <div className="subTitle">
           <p>{subTitle}</p>
-        </div>
-        <Button
-          content="Read more"
-          color="inverse"
-          icon={<HiOutlineArrowNarrowRight />}
-        />
-      </div>
+        </div> */}
+        
+      {/* </div> */}
     </motion.div>
   );
 }

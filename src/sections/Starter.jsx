@@ -1,11 +1,10 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Button from "../components/Button";
+
 import { useScroll } from "../components/useScroll";
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-import { GoPlay } from "react-icons/go";
+
 import { motion } from "framer-motion";
-import HubMap from "../assets/HubMap.png";
+import ridermap from "../assets/ridermap.png";
 import "../styles/sections/Starter.scss";
 import { headerAnimation, imageAnimation } from "../utils/Animations";
 
@@ -13,7 +12,7 @@ export default function Starter() {
   const [element, controls] = useScroll();
   return (
     <div className="main-container" ref={element}>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="container">
         <motion.div
           className="content"
@@ -51,7 +50,7 @@ export default function Starter() {
           animate={controls}
           transition={{ type: "tween" }}
         >
-          <img src={HubMap} alt="Work Image" />
+          <img src={ridermap} alt="Work Image" />
         </motion.div>
       </div>
     </div>

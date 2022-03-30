@@ -46,12 +46,12 @@ function Footer() {
               <li>
                 <a href="#">Contact Us</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#">Portfolio</a>
               </li>
               <li>
                 <a href="#">Career</a>
-              </li>
+              </li> */}
               <li>
                 <a href="#">Blog</a>
               </li>
@@ -59,7 +59,7 @@ function Footer() {
                 <a href="/Terms">Terms & Conditions</a>
               </li>
               <li>
-                <a href="#">Privacy Policy</a>
+                <a href="/Privacy">Privacy Policy</a>
               </li>
             </ul>
           </motion.div>
@@ -143,9 +143,9 @@ function Footer() {
         </div>
         <div className="copyright">
           <div className="copy">
-            <p>Copyright c 2021. All Rights Reserved.</p>
+            <p>Copyright Ⓒ 2022. All Rights Reserved.</p>
           </div>
-          <div className="icons">
+          {/* <div className="icons">
             <div className="icon">
               <a href="#">
                 <FaFacebookF />
@@ -167,7 +167,7 @@ function Footer() {
                 <FaTwitter />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

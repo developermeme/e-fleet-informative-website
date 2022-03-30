@@ -45,7 +45,7 @@ export default function Navbar() {
               <a href="#footer">Contact</a>
             </li>
             <li>
-              <a href="https://admin.efleet.world/">Register</a>
+              <a href="https://admin.efleet.world/">Login/Register</a>
             </li>
           </ul>
         </div>

@@ -5,8 +5,9 @@ import logo from "../assets/logo.png";
 function BrandName({ isFooter = false }) {
   return (
     <div className={`brand ${isFooter === true ? "footer" : ""}`}>
-      
-     <img src={logo} alt="website logo"/>
+      <a href="https://admin.efleet.world/">
+        <img src={logo} alt="website logo" />
+      </a>
     </div>
   );
 }

@@ -30,7 +30,7 @@ export default function Navbar() {
       </div>
       <nav>
         <div className="links">
-          <ul>
+          <ul className="child">
             <li>
               <a href="#about">About</a>
             </li>
@@ -45,7 +45,7 @@ export default function Navbar() {
               <a href="#footer">Contact</a>
             </li>
             <li>
-              <a href="https://admin.efleet.world/">Login/Register</a>
+              <a href="https://admin.efleet.world/" className="reg">Login/Register</a>
             </li>
           </ul>
         </div>

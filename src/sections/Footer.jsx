@@ -8,6 +8,8 @@ import { AiFillInstagram, AiFillLinkedin, AiOutlineSend } from "react-icons/ai";
 import { motion } from "framer-motion";
 import "../styles/sections/Footer.scss";
 import { fromUp, fromDown } from "../utils/Animations";
+import Applestore from "../assets/Applestore.png";
+import PlayStore1 from "../assets/PlayStore1.png";
 
 function Footer() {
   const [element, controls] = useScroll();
@@ -63,37 +65,22 @@ function Footer() {
               </li>
             </ul>
           </motion.div>
-          {/* <motion.div
+          <motion.div
             className="industries"
             variants={fromUp}
             animate={controls}
             transition={{ duration: 0.5 }}
           >
-            <h3>Industires</h3>
             <ul>
               <li>
-                <a href="#">Website Development</a>
+                <img src={Applestore} />
               </li>
               <li>
-                <a href="#">Mobile App Development</a>
-              </li>
-              <li>
-                <a href="#">Website Design</a>
-              </li>
-              <li>
-                <a href="#">Mobile App Design</a>
-              </li>
-              <li>
-                <a href="#">Digital Marketing</a>
-              </li>
-              <li>
-                <a href="#">Graphic Design</a>
-              </li>
-              <li>
-                <a href="#">IOS App Development</a>
+                {" "}
+                <img src={PlayStore1} />
               </li>
             </ul>
-          </motion.div> */}
+          </motion.div>
           <motion.div
             className="touch"
             variants={fromDown}

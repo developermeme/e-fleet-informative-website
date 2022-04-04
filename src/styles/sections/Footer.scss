@@ -6,11 +6,11 @@
   height: fit-content;
   padding: 8rem 0;
   .main-container {
-    margin: 0 10%;
+    margin: 0 5%;
 
     padding-top: 2.5rem;
     display: grid;
-    grid-template-columns: repeat(3, 3fr);
+    grid-template-columns: repeat(4, 1fr);
     ul {
       list-style-type: none;
       margin: 0;

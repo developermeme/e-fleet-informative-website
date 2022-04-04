@@ -10,6 +10,7 @@ import ScrollToTop from "../components/ScrollToTop";
 import { motion } from "framer-motion";
 import Terms from "./Terms";
 import Navbar from "../components/Navbar";
+import Steps from "./Steps";
 
 export default function Index() {
   return (
@@ -21,6 +22,7 @@ export default function Index() {
         <About />
         <Why />
         {/* <Testimonials /> */}
+        <Steps/>
         <Blogs />
         <Footer />
       </motion.div>

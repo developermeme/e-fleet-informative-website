@@ -21,7 +21,7 @@ function Footer() {
           <motion.div
             className="news-letter"
             variants={fromUp}
-            animate={controls}
+           
             transition={{ duration: 0.5 }}
           >
             <BrandName isFooter={true} />
@@ -36,7 +36,7 @@ function Footer() {
           <motion.div
             className="quick-links"
             variants={fromDown}
-            animate={controls}
+           
             transition={{ duration: 0.5 }}
           >
             <h3>Quick Links</h3>
@@ -68,7 +68,7 @@ function Footer() {
           <motion.div
             className="industries"
             variants={fromUp}
-            animate={controls}
+           
             transition={{ duration: 0.5 }}
           >
             <ul>
@@ -84,7 +84,7 @@ function Footer() {
           <motion.div
             className="touch"
             variants={fromDown}
-            animate={controls}
+           
             transition={{ duration: 0.5 }}
           >
             <h3>Get in Touch</h3>

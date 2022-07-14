@@ -19,7 +19,7 @@ function Blogs() {
         <motion.div
           className="title-container"
           variants={textAnimation}
-          animate={controls}
+         
           transition={{ duration: 1 }}
         >
           {/* <Title title="Blogs" color="pink" lineCenter={true} />
@@ -35,27 +35,27 @@ function Blogs() {
 
             // You’re thinking: Yeah, but there has to be a catch..."
             variants={cardAnimation}
-            animate={controls}
+           
           />
           <Blog
             image={rider2}
             // title="Not all e-bikes are the same"
             // subTitle="Not least will be which e-bike to buy. Many fleet managers new to the genre don’t realise that ebikes really are built for purpose - an e-bike is not just an e-bike. The difference between an e-bike suitable for food deliveries and an e-bike designed purely for leisure is at least as marked as that between a racing bike and a mountain bike, if not more... "
             variants={cardAnimation}
-            animate={controls}
+           
           />
           <Blog
             image={rider3}
             // title="First up: Are they a fad? Answer: No. Next?"
             // subTitle="At the moment electric vehicles make up 4% of car sales, by 2030 Toyota expect that to be 85%. In the US, transport makes up 29% of all carbon emissions - the biggest single contributor. In the EU it’s 27%. Government support - or conversely, regulations - will be..."
             variants={cardAnimation}
-            animate={controls}
+           
           />
         </div>
         {/* <div
           className="button-container"
           variants={textAnimation}
-          animate={controls}
+         
         >
           <Button content="View All" />
         </div> */}

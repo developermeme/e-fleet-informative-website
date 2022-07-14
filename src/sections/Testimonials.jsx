@@ -15,7 +15,7 @@ export default function Testimonials() {
         <motion.div
           className="title-container"
           variants={textAnimation}
-          animate={controls}
+         
           transition={{
             duration: 1,
           }}
@@ -31,21 +31,21 @@ export default function Testimonials() {
             name="Trushit Vyas"
             designation="Co-Founder"
             variants={cardAnimation}
-            animate={controls}
+           
           />
           <Testimonial
             content="Mobile application developer is exactly what out business has been lacing. I have gotten at least 50 times the value from mobile apllication."
             name="Kishan H. Sheth"
             designation="Founder & CEO"
             variants={cardAnimation}
-            animate={controls}
+           
           />
           <Testimonial
             content="Logo Design is the next killer app. We've used logo design for the last five years. Best. Product. Ever! Definetly worth the investment"
             name="Romit Gandhi"
             designation="Founder"
             variants={cardAnimation}
-            animate={controls}
+           
           />
         </div>
       </div>

@@ -17,7 +17,7 @@ export default function Starter() {
         <motion.div
           className="content"
           variants={headerAnimation}
-          animate={controls}
+         
           transition={{ delay: 0.2, type: "tween" }}
         >
           <h1>E-Fleet.World</h1>
@@ -47,7 +47,7 @@ export default function Starter() {
         <motion.div
           className="image"
           variants={imageAnimation}
-          animate={controls}
+         
           transition={{ type: "tween" }}
         >
           <img src={ridermap} alt="Work Image" />

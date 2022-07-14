@@ -17,7 +17,7 @@ export default function Terms() {
           className="details"
           initial="hidden"
           animate="show"
-          animate={controls}
+         
           variants={reveal}
           transition={{ delay: 0.1, stiffness: 300 }}
         >

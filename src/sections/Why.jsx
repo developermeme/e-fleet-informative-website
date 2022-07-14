@@ -19,7 +19,7 @@ function Why() {
         <motion.div
           className="top"
           variants={topContainerAnimation}
-          animate={controls}
+         
           transition={{
             duration: 1,
           }}
@@ -39,7 +39,7 @@ function Why() {
         <div className="content">
           <motion.div
             variants={videoAnimation}
-            animate={controls}
+           
             transition={{ type: "tween", duration: 0.5 }}
           >
             <div className="video"></div>
@@ -47,7 +47,7 @@ function Why() {
           <motion.div
             className="reasons"
             variants={reasonsAnimation}
-            animate={controls}
+           
             transition={{ type: "tween", duration: 0.5 }}
           >
             <ul>
